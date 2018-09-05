@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Usd"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputUSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="US Dolar"
+        android:inputType="number"
+        android:layout_margin="@dimen/defaultMargin"
+        android:textSize="@dimen/defaultTextSize"/>
+
+    <TextView
+        android:id="@+id/outputIDR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:text="Rupiah"
+        android:layout_margin="@dimen/defaultMargin"
+        />
+
+    <Button
+        android:id="@+id/aaaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:layout_margin="@dimen/defaultMargin"
+        android:text="Convert"
+        />
+
+    <EditText
+        android:id="@+id/inputIDR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Rupiah"
+        android:inputType="number"
+        android:layout_margin="@dimen/defaultMargin"
+        android:textSize="@dimen/defaultTextSize"/>
+
+    <TextView
+        android:id="@+id/outputUSD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:text="Dolar"
+        android:layout_margin="@dimen/defaultMargin"
+        />
+
+    <Button
+        android:id="@+id/aaa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:layout_margin="@dimen/defaultMargin"
+        android:text="Convert"
+        />
+    <Button
+        android:id="@+id/Clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/defaultTextSize"
+        android:layout_margin="@dimen/defaultMargin"
+        android:text="Clear"
+        />
+
+</LinearLayout>
